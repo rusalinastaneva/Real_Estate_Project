@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'redb',
         'USER': 'postgres',
-        'PASSWORD': '86!33Tr',
+        'PASSWORD': '',
         'HOST': 'localhost'
     }
 }
@@ -145,6 +145,6 @@ MESSAGE_TAGS = {
 # Email config
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'rossavelrs@gmail.com'
-EMAIL_HOST_PASSWORD = '861112rsT!'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
